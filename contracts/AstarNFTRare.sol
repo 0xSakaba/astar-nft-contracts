@@ -28,12 +28,12 @@ contract AstarNFTRare is ERC721Enumerable, Ownable {
     constructor(
         string memory baseTokenURI
     )
-        ERC721("Astar Expansion: Soneium Edition - Common", "AESEC")
+        ERC721("Astar Expansion: Soneium Edition - Rare", "AESER")
         Ownable(msg.sender)
     {
         _baseTokenURI = baseTokenURI;
 
-        //2025/2/19 - 2/25/, 13:00 - 14:00 UTC
+        // 2025/2/19 - 2/25 , 13:00 - 14:00 UTC
         salePeriods[1] = SalePeriod(1739970000, 1739973600, 0); // 2025-02-19
         salePeriods[2] = SalePeriod(1740056400, 1740060000, 0); // 2025-02-20
         salePeriods[3] = SalePeriod(1740142800, 1740146400, 0); // 2025-02-21
