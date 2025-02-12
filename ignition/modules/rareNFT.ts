@@ -4,14 +4,14 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const input_baseTokenURI =
-  "ipfs://bafkreidhsz4oudhuy3oz56quuqkvq4twnoetdsyc43vqwqmxyfzwarej7i";
+  "ipfs://bafkreihawciccb2k2but37kctudfuqzfjnaqrkdx7btwxkpy2dcpndg4iu";
 
-const NuushiModule = buildModule("NuushiModule", (m) => {
+const AstarNFTRareModule = buildModule("AstarNFTRareModule", (m) => {
   const baseTokenURI = m.getParameter("baseTokenURI", input_baseTokenURI);
 
-  const Nuushi = m.contract("NuushiNFT", [baseTokenURI]);
+  const RareNFT = m.contract("AstarNFTRare", [baseTokenURI]);
 
-  return { Nuushi };
+  return { RareNFT };
 });
 
-export default NuushiModule;
+export default AstarNFTRareModule;
