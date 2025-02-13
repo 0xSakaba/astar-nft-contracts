@@ -20,6 +20,14 @@ contract verification
 npx hardhat run ./verify/<name>.ts --network <network> <contractAddress>
 ```
 
+# deploy
+
+sepolia
+
+AstarNFTCommonModule#AstarNFTCommon - 0x12516c9cC0d52eAec44737BB15f0A805628fE26B
+
+AstarNFTRareModule#AstarNFTRare - 0x31896d4544AEf14045f34c90Fb4fbE5D96cD0470
+
 # Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
