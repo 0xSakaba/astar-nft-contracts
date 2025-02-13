@@ -128,4 +128,11 @@ contract AstarNFTRare is ERC721Enumerable, Ownable {
         }
         return 0; // not in sale period
     }
+
+    /**
+     * @dev check each wallet's minted count
+     */
+    function mintedCount(address wallet) external view returns (uint256) {
+        return _mintedPerWallet[wallet];
+    }
 }
