@@ -28,6 +28,12 @@ AstarNFTCommonModule#AstarNFTCommon - 0x12516c9cC0d52eAec44737BB15f0A805628fE26B
 
 AstarNFTRareModule#AstarNFTRare - 0x31896d4544AEf14045f34c90Fb4fbE5D96cD0470
 
+soneium-minato (testnet)
+
+AstarNFTCommonModule#AstarNFTCommon - 0x55D30Ba332AdA10478e5aBbcA3400253bD5281E4
+
+AstarNFTRareModule#AstarNFTRare - 0x15A580c90B10bF98dFe66f28B8e96D08150Cb6a4
+
 # Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
