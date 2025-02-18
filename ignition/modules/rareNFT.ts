@@ -4,7 +4,7 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const input_baseTokenURI =
-  "ipfs://bafkreihawciccb2k2but37kctudfuqzfjnaqrkdx7btwxkpy2dcpndg4iu";
+  "ipfs://bafkreic6fdnprvvkat5hlgn4yeor5d6m5fwktdfpjjfogo6vdkboweqw4e";
 
 const AstarNFTRareModule = buildModule("AstarNFTRareModule", (m) => {
   const baseTokenURI = m.getParameter("baseTokenURI", input_baseTokenURI);

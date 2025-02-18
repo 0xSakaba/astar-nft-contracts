@@ -24,9 +24,9 @@ npx hardhat run ./verify/<name>.ts --network <network> <contractAddress>
 
 soneium (mainnet)
 
-AstarNFTCommonModule#AstarNFTCommon - 0xC68D641700140B088D46adA58a0f62fbeCAB01BA
+AstarNFTCommonModule#AstarNFTCommon - 0xAF27443284F86CBdc1fa71941e8B787e5A4440De
 
-AstarNFTRareModule#AstarNFTRare - 0x0c428C5531C344877D441C6fE46317717F41cE21
+AstarNFTRareModule#AstarNFTRare - 0xcBdbF291979BbaF4A69817E7EB5bCD4493c65eF5
 
 
 sepolia
