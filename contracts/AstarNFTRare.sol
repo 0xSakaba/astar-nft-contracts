@@ -27,10 +27,7 @@ contract AstarNFTRare is ERC721Enumerable, Ownable {
 
     constructor(
         string memory baseTokenURI
-    )
-        ERC721("Astar Expansion: Soneium Edition - Rare", "AESER")
-        Ownable(msg.sender)
-    {
+    ) ERC721("Astar Expansion: Soneium Premium", "AESP") Ownable(msg.sender) {
         _baseTokenURI = baseTokenURI;
 
         // 2025/2/19 - 2/25 , 13:00 - 14:00 UTC

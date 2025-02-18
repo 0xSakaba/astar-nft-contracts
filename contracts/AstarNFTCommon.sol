@@ -24,10 +24,7 @@ contract AstarNFTCommon is ERC721Enumerable, Ownable {
 
     constructor(
         string memory baseTokenURI
-    )
-        ERC721("Astar Expansion: Soneium Edition - Common", "AESEC")
-        Ownable(msg.sender)
-    {
+    ) ERC721("Astar Expansion: Soneium Genesis", "AESG") Ownable(msg.sender) {
         // 18/02/2025 11PM UTC
         startTimestamp = 1739919600;
         // 25/02/2025 11PM UTC
